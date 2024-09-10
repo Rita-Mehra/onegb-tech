@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* background: #252525; */
+    background: #131313;
+    color: #ffff;
+
+
+}
+
+::-webkit-scrollbar {
+    display: none;
+    /* Hide scrollbar */
+}
+
+
+.css-1cappvg-MuiButtonGroup-root .MuiButtonGroup-firstButton,
+.css-1cappvg-MuiButtonGroup-root .MuiButtonGroup-middleButton {
+    border-color: transparent !important;
+}
+
+/* For last icon of the avatar group */
+.css-1ytufz-MuiAvatarGroup-root .MuiAvatar-root {
+    min-width: 50px !important;
+    min-height: 50px !important;
+    border: 2px solid black !important;
+    background: #252525 !important;
+    color: #F35820 !important;
+    font-weight: 400 !important;
+
+}
+
+/* for schedule consultation adonment button color */
+.css-i4bv87-MuiSvgIcon-root {
+    color: white
+}
+
+
+.MuiAutocomplete-listbox {
+    background: black;
+}
+
+.css-1d3z3hw-MuiOutlinedInput-notchedOutline {
+    border: transparent
+}
+
+.css-hb950a-MuiInputBase-root-MuiInput-root::before {
+    border-bottom: 0.2px solid #252525;
+}
+
+.css-v2c2ti-MuiInputBase-root-MuiInput-root::before {
+    border-bottom: 0.2px solid #252525;
+}
+
+.css-pqmu5r-MuiFormControl-root-MuiTextField-root {
+    border-bottom: 0.2px solid #252525;
+}
+
+
+
+.css-66dh3a-MuiInputBase-input-MuiInput-input {
+    color: white;
+    font-size: 14px;
+    font-weight: 300;
+    padding-left: 15px;
+}
+
+/* for padding in name, email, phone number and last name */
+.css-1803du1-MuiFormControl-root-MuiTextField-root input {
+    padding-bottom: 15px;
+    padding-left: 15px;
+}
+
+
+.css-1wpkskq-MuiButtonBase-root-MuiButton-root-MuiLoadingButton-root.Mui-disabled {
+    background-color: #F35820;
+    opacity: 0.5;
+    color: white;
+}
+
+/* for pagination on blogs page */
+
+.css-h19gk7-MuiButtonBase-root-MuiPaginationItem-root {
+    background: #252525;
+    color: #ffff;
+    font-weight: 400;
+
+    &:hover {
+        background: #000000;
+    }
+}
+
+.css-h19gk7-MuiButtonBase-root-MuiPaginationItem-root.Mui-selected {
+    background: #F35820;
+}
+
+
+
+/* for changing contact page form input border bottom color */
+.css-xcux7m-MuiInputBase-root-MuiInput-root::before,
+.css-8yezm7-MuiInputBase-root-MuiInput-root::before {
+    border-bottom: 0.2px solid #252525;
+}
+
+/* for changing last icon of the teams' icon on the about us page for live website */
+
+.css-1mceequ .MuiAvatar-root {
+    min-width: 50px !important;
+    min-height: 50px !important;
+    border: 2px solid black !important;
+    background: #252525 !important;
+    color: #F35820 !important;
+    font-weight: 400 !important;
+
+}
+
+/* for changing icon size of We are coming soon modal  */
+.icon-class {
+    font-size: 100px;
+}
+
+
+
+@media screen and (max-width: 899px) {
+
+    .mobile-logo {
+        text-align: center;
+    }
+
+    .mobile-logo img {
+        width: 50% !important;
+    }
+}
